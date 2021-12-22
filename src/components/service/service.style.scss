@@ -1,0 +1,124 @@
+.service{
+    position: absolute;
+    display: flex;
+    width: 980px;
+    height: 402px;
+    top: 21.5%;
+    left: 150px;
+    background: #FFFFFF;
+    padding-top: 5%;
+    padding-left: 5%;
+    &.service-image{
+        position: absolute;
+        width: 352.06px;
+        height: 330px;
+        left: 364px;
+        top: 800px;
+    }
+    .date{
+        position: absolute;
+        width: 210px;
+        height: 28px;
+        left: 520px;
+        // top: 867px;
+        /* Body 02 */
+        color: #939191;
+        font-family: Manrope;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .eye{
+            // margin: 100px;
+            width: 13px;
+            position: relative;
+            height: 13px;
+            left: 250px;
+            top: 5px;
+            border: solid 1px #939191;
+            border-radius:  75% 15%;
+            transform: rotate(45deg);
+          }
+          .eye:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border: solid 1px #939191;
+            border-radius: 50%;
+            left: 3px;
+            top: 3px;
+            line-height: 28px;
+          }
+          .views{
+            position: absolute;
+            width: 150px;
+            height: 28px;
+            left: 770px;
+            // top: 867px;
+            /* Body 02 */
+            color: #939191;
+            font-family: Manrope;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 28px;
+          }
+          .feature{
+            position: absolute;
+            width: 150px;
+            height: 28px;
+            left: 930px;
+            // top: 867px;
+            /* Body 02 */
+            color: #FF6433;
+            font-family: Manrope;
+            font-style: normal;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+          }
+    .content{
+        position: absolute;
+        width: 530px;
+        height: 350px;
+        left: 520px;
+        top:105px;
+        /* Body 02 */
+        .heading{
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 140%;
+            letter-spacing: -0.03em;
+            color: #1E1B1B;
+        }
+        .para{
+            font-family: Manrope;
+            font-style: normal;
+            font-size: 13px;
+            line-height: 28px;
+            color: #232536;
+            opacity: 0.6;
+        }
+        .read-more{
+            position: absolute;
+            top: 200px;
+            /* Body (01) */
+
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 175%;
+            /* identical to box height, or 31px */
+
+
+            /* Black */
+
+            color: #1E1B1B;
+        }
+    }
+    
+}
