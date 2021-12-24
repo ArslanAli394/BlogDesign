@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from '../Image/image.component';
 import ViewsComponent from '../views/views.component';
 import './blog.item.style.scss'
 

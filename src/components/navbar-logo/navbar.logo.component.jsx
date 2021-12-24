@@ -1,12 +1,14 @@
 import React from 'react';
 import './navbar.logo.styles.scss';
-
+import { NavLink } from 'react-router-dom';
 import Logo from "../../assests/Logo.svg";
 
 const NavbarLogo = () =>{
     return (
         <>
-            <img className='navbar-logo' src={Logo} alt='Logo' />
+            <NavLink className="link" activeClassName="active" to="/">
+                <img src={Logo} alt='Logo' />
+            </NavLink>
         </>
     )
 }
