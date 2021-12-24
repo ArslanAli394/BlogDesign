@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import BlogItem from '../../components/blog-item/blog.item.component';
+import CustomButton from '../../components/custom-button/custom.button.component';
 import { getBlogList } from '../../redux/action';
 import './blog.list.style.scss';
 
@@ -36,6 +37,9 @@ class BlogList extends React.Component{
                 ))
             }
             </div>
+                
+                <CustomButton className='load-button-container'>Load More</CustomButton>
+                
             </div>
         )
     }

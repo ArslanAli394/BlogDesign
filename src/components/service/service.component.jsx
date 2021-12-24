@@ -1,19 +1,18 @@
 import React from 'react';
-import Image from '../Image/image.component';
+import CustomImage from '../Image/image.component';
 // import './navbar.logo.styles.scss';
 import Image1 from '../../assests/1.png';
 import './service.style.scss'
+import ViewsComponent from '../views/views.component';
 
 const Service = () =>{
     return (
         <div className='service'>
            
-            <Image className='service-image' source={Image1} />
-            
-            <div className='date'>Posted on October 6th 2021</div>
-            <div className='eye'>
+            <CustomImage className='service-image' source={Image1} />
+            <div className='view'>
+                <ViewsComponent/>
             </div>
-            <div className='views'>563 views</div>
             <div className='feature'>FEATURED</div>
             <div className='content'>
                 <div>

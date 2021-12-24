@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Image = ({source,otherprops}) =>{
+const CustomImage = ({source,otherprops}) =>{
     return (
         <img src={source} alt={source} {...otherprops}/>
     )
 }
-export default Image;
+export default CustomImage;
