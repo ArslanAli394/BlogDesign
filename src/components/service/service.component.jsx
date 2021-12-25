@@ -11,7 +11,7 @@ const Service = () =>{
            
             <CustomImage className='service-image' source={Image1} />
             <div className='view'>
-                <ViewsComponent/>
+                <ViewsComponent view={563}/>
             </div>
             <div className='feature'>FEATURED</div>
             <div className='content'>

@@ -6,6 +6,7 @@ import BlogList from './pages/blog-list/Blog.list';
 import BlogPage from './pages/blog/blog.page';
 import Contact from './pages/contact/contact';
 import BlogPageService from './pages/service/blog.page.service';
+import BlogDetail from "./pages/blog-detail/blog.detail";
 
 const App=()=> {
   return (
@@ -16,8 +17,10 @@ const App=()=> {
         <Route exact path='/about' element={<Header/>}/>
         <Route path='/service' element={<BlogPageService/>}/>
         <Route path='/blogs' element={<BlogList/>}/>
+        <Route path='/blog/:id' element={<BlogDetail/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      <Contact/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 
 .background-image{
     position: absolute;
-width: 944px;
+width: 75%;
 height: 624px;
 left: 0px;
 // top: 90px;
@@ -9,7 +9,7 @@ left: 0px;
 }
 .overlay{
     position: absolute;
-width: 944px;
+width: 75%;
 height: 624px;
 left: 0px;
 // top: 90px;
@@ -26,7 +26,7 @@ width: 287px;
 height: 86px;
 right: 1289px;
 top: 359px;
-left:200px ;
+left:16%;
 
 /* Heading (h1) */
 
@@ -44,9 +44,9 @@ color: #FFFFFF;
 }
 .header-right{
 position: absolute;
-width: 976px;
+width: 60%;
 height: 624px;
-left: 644px;
+left: 46%;
 // top: 90px;
 overflow: hidden;
 /* Black */
@@ -58,7 +58,8 @@ h4{
     position: absolute;
 width: 582px;
 height: 109px;
-right: 333px;
+left: 5%;
+right: 5%;
 top: 201px;
 
 /* Heading (H4) */
@@ -78,7 +79,8 @@ p{
     position: absolute;
 width: 614px;
 height: 96px;
-right: 301px;
+left: 5%;
+right: 5%;
 top: 376px;
 
 /* Body (01) */
@@ -86,7 +88,7 @@ top: 376px;
 font-family: Manrope;
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
+font-size: 15px;
 line-height: 175%;
 /* or 31px */
 

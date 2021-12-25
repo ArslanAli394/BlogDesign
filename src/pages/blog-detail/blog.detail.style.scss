@@ -1,0 +1,66 @@
+.blog-detail{
+    position: relative;
+    width: 80%;
+    height: 700px;
+    display: flex;
+    justify-content: start;
+    margin: 2% 10%;
+    .view{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+    .title{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 140%;
+        /* or 67px */
+
+        letter-spacing: -0.03em;
+
+        /* Black */
+
+        color: #1E1B1B;
+    }
+    .subtitle{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 28px;
+        /* or 175% */
+
+
+        /* Black */
+
+        color: #232536;
+
+        opacity: 0.6;
+    }
+    .article{
+        position: absolute;
+        top: 75%;
+        left: 10%;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        /* or 175% */
+
+
+        /* Black */
+
+        color: #232536;
+
+        opacity: 0.6;
+    }
+}

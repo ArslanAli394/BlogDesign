@@ -10,3 +10,9 @@ export const getBlogList =()=>(dispatch)=>{
             })
         });
 }
+
+export const getSingleBlog = (id) =>({
+    type:"SINGLE_BLOG",
+    payload: id
+})
+

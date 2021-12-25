@@ -9,23 +9,19 @@ class BlogList extends React.Component{
    constructor(props){
        super(props);
        this.state ={
-           blogList:[]
+           blogList:[],
+           flag:true
        }
    }
     componentDidMount(){
-    //    axios.get("https://61791a83aa7f3400174047a6.mockapi.io/v1/GetBLogs/").then(({data})=>{
-    //        this.setState({
-    //            blogList:data
-    //        })
-    //    })
-    this.props.getBlogList()
+        this.props.getBlogList();
+           
     }
    
     
     render(){
 
         const {blogList} = this.props;
-        console.log(blogList)
         return(
             <div className='collection-preview'>
             <div className='preview'>

@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../../components/header/header.component';
 import BlogList from '../blog-list/Blog.list';
-import Contact from '../contact/contact';
 import BlogPageService from '../service/blog.page.service';
 
 
@@ -12,7 +11,6 @@ const BlogPage = () =>{
             <Header/>
             <BlogPageService/>
             <BlogList/>
-            <Contact/>
         </div>
     )   
 }
